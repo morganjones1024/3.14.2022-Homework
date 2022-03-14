@@ -1,0 +1,56 @@
+#logo {
+    font-family: 'Courgette', cursive;
+    background-color: pink;
+    font-size: 75px; 
+    z-index: 100;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+    box-sizing: border-box;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: left;
+    
+}
+li a {
+    display: block;
+    padding: 14px 16px;
+    display: inline;
+    color: white;
+    text-align: center;
+    text-decoration:none;
+    font-family: 'Courgette', cursive;
+    font-size:25px;
+    
+}
+li a:hover {
+    background-color: pink;
+}
+.active {
+    background-color: yellow;
+}
+#id {
+    text-align: center;
+}
+#cart {
+    filter: invert(100%);
+}
+
+.footer {
+    position: absolute; 
+    left: 0 ; right: 0; bottom: 0; 
+    height:[footer-height] 
+}
+.bulk {
+    padding-top: 100px;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-shadow: 2px 2px rgb(182, 209, 233);
+}
